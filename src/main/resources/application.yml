@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: aws-project
+
+## config aws
+aws:
+  s3:
+    bucketName: terraform-bucket-jcls
+
+## config sqs
+cloud:
+  aws:
+    sqs:
+      aws-project-note-queue: https://sqs.us-east-1.amazonaws.com/471112916435/aws-project-note-queue
+
